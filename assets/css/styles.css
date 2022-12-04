@@ -1,0 +1,9 @@
+
+.bg-black { 
+    background-color: rgb(0, 0, 0);
+
+}
+
+.list-group {
+    --bs-list-group-bg: transparent;
+}
