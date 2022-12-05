@@ -7,3 +7,50 @@
 .list-group {
     --bs-list-group-bg: transparent;
 }
+/* Aca abajo: para que cambien de color cuando se pone el mouse en los iconos de github, insta y facebook */
+.fa-brands.fa-github.fa-2x:hover {
+    --bs-text-opacity: 1;
+    color: #2b0083 !important;
+}
+
+.fa-brands.fa-facebook.fa-2x:hover {
+    --bs-text-opacity: 1;
+    color: #1877f2 !important;
+
+}
+
+.fa-brands.fa-instagram.fa-2x:hover {
+    --bs-text-opacity: 1;
+    color: #ff0771 !important;
+}
+/* Aca termina lo de los colores cuando se apoya el mouse */
+/* Abajo le doy opacidad al banner de fondo */
+section.banner {
+    background-image: linear-gradient(
+        rgba(0,0,0,1),
+        rgba(0,0,0,0.5)
+    ),
+    url(/assets/img/imagen1.jpg);
+    width: 100%;
+    height: 100vh;
+    background-repeat: no-repeat;
+    position: relative;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -moz-background-size: cover;
+    -msn-background-size: cover;
+}
+
+h3.intro {
+    padding-top: 15%;
+    font-size: 3rem;
+}
+
+h1.intro {
+    font-size: 4rem;
+}
+
+h4.intro {
+    font-size: 1.7rem;
+}
